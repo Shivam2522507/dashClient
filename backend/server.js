@@ -11,7 +11,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors({
   // origin: 'https://dash-client-q1uv.vercel.app/' // Frontend URL from Vercel
-  origin: ["http://localhost:5173"],
+  origin: ["https://dash-client-frontend.onrender.com"],
   methods: ["GET", "POST" ,"PUT","DELETE"],
   credentials: true
 }));
